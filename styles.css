@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+}
+.card {
+    width: 360px;
+    background-color: #002f6c; /* Dark blue background */
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo {
+    width: 300px;
+}
+.subtitle {
+    color: #c5c5c5;
+    font-size: 0.9em;
+}
+.profile-section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+.title {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+.company {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #c5c5c5;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+    background-color: #004aad; /* Slightly lighter blue */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.contact-info p, .additional-links p {
+    font-size: 0.9em;
+    margin: 10px 0;
+    color: #c5c5c5;
+}
+.contact-info a, .additional-links a {
+    color: white;
+    text-decoration: none;
+}
+.additional-links p {
+    background-color: #004aad;
+    padding: 8px;
+    border-radius: 5px;
+}
